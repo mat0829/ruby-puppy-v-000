@@ -8,8 +8,8 @@ class Dog
   end
 
   def self.all
-    @@all
     self.each { |a| puts a}
+    @@all
   end
 
   def self.clear_all
