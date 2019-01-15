@@ -8,7 +8,8 @@ class Dog
   end
 
   def self.all
-    @@all..each { |a| puts a \n, " " }
+    @@all.each do |dog|
+      puts dog.name
   end
 
   def self.clear_all
