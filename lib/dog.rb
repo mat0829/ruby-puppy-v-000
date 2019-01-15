@@ -11,5 +11,5 @@ class Dog
     puts @@all
   end
 
-  
+
 end
