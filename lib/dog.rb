@@ -5,4 +5,5 @@ class Dog
     @@all = []
     @name= name
   end
+  
 end
