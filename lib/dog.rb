@@ -8,7 +8,7 @@ class Dog
   end
 
   def self.all
-    puts @@all.to_s
+    @@all
   end
 
 
