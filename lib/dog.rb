@@ -8,7 +8,8 @@ class Dog
   end
 
   def self.all?
-    puts @@all
+    @@all
+    puts self.all
   end
 
 
