@@ -8,7 +8,6 @@ class Dog
   end
 
   def self.all
-    self.each { |a| puts a}
     @@all
   end
 
