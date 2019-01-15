@@ -9,7 +9,6 @@ class Dog
 
   def self.all
     @@all
-    puts self.all
   end
 
 
